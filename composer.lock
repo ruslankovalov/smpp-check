@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "620010b4a6c5f00f26dd7a5230eff84d",
+    "content-hash": "f419f77e5f7ea92ea34d1d94f6e83c3b",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1065,6 +1065,17 @@
                 "psr-3"
             ],
             "time": "2017-06-19T01:22:40+00:00"
+        },
+        {
+            "name": "novelt/php-smpp",
+            "version": "dev-MT-gGnYcMfd-setup-smpp-mtech",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/novelt/php-smpp.git",
+                "reference": "MT-gGnYcMfd-setup-smpp-mtech"
+            },
+            "type": "library",
+            "time": "2017-03-27 07:20:54"
         },
         {
             "name": "paragonie/random_compat",
@@ -2369,7 +2380,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "novelt/php-smpp": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
